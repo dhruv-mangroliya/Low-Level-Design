@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "tuple": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "format": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "__locale": "cpp",
+        "locale": "cpp",
+        "text_encoding": "cpp",
+        "thread": "cpp",
+        "shared_mutex": "cpp",
+        "mutex": "cpp",
+        "syncstream": "cpp"
+    }
+}
