@@ -22,5 +22,4 @@ public class FeesManager {
         FeeStrategy feeStrategy = getFeeStrategy(vehicle.getLicense());
         return feeStrategy.calculateCharges(vehicle);
     }
-
 }
