@@ -42,24 +42,21 @@ public class Board {
         this.currPlayer = p.getType();
     }
 
-    public boolean makeMove(Player player, Integer location){
+    public void makeMove(Player player, Integer location){
         //make sure no consecutive moves.
-        if(location<0 || location>9){
-            System.out.println("Choose index from board. Invalid Index.");
-            return false;
-        }
         if(player.getType() != this.currPlayer){
             System.out.println("This is unvalid move. It is not your turn for player : "+ ((currPlayer == 'O') ?'X':'O'));
-            return false;
+            return;
         }
         // make sure no player is there.
         if(spotMapping.get(location).getPlayer() != null){
             System.out.println("This is unvalid move. This location is already occupied.");
-            return false;
+            return;
         }
         if(calculateResult() != Status.ONGOING){
             System.out.println("Game is over. Have a good day!!!");
-            return true;
+            checkStatus();
+            return;
         }
         //make move
         Spot targetSpot = spotMapping.get(location);
@@ -71,7 +68,7 @@ public class Board {
         }
         //set last player
         this.currPlayer = (player.getType() == 'O')? 'X' : 'O';
-        return true;
+        return;
     }
     private Status calculateResult() {
         int index = 0;
