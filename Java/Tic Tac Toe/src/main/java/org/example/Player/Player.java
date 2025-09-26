@@ -7,8 +7,10 @@ import lombok.Setter;
 @Getter
 public class Player {
     private char type;
+    private String name;
 
-    public Player(char ch){
+    public Player(char ch, String name){
         this.type = ch;
+        this.name = name;
     }
 }
