@@ -29,6 +29,5 @@ public class Main {
         System.out.println();
         paymentService.getPaymentsForLoan(1);
         System.out.println();
-
     }
 }
