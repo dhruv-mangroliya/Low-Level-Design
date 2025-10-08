@@ -80,7 +80,6 @@ public class ChessGame implements Game{
 
             //not valid pattern move for selected piece.
             if(!fromPiece.canMove(board, from, to)){
-                System.out.println("Hi am invalid.................");
                 throw new InvalidMoveForPiece();
             }
 
@@ -106,7 +105,6 @@ public class ChessGame implements Game{
             // move piece
             toCell.setPiece(fromPiece);
             fromCell.setPiece(null);
-
             if (toPiece instanceof King) {
                 this.resultState = (currentPlayer.getColour() == Colour.WHITE) ? ResultState.PLAYER_2_WIN : ResultState.PLAYER_1_WIN;
                 DisplayResult();
