@@ -19,12 +19,8 @@ public class Cell {
         this.piece = null;
     }
 
-    public boolean setPiece(Piece piece){
-        if(this.getPiece() == null){
-            this.piece = piece;
-            return true;
-        }
-        return false;
+    public void setPiece(Piece piece){
+        this.piece = piece;
     }
 
     public void setUpCell(Colour colour, Piece piece){

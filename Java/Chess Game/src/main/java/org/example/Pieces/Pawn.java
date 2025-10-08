@@ -14,8 +14,6 @@ public class Pawn extends Piece{
     public boolean canMove(Board board, Position from, Position to) {
         int rowDiff = to.getRow() - from.getRow();
         int colDiff = Math.abs(to.getColumn() - from.getColumn());
-        System.out.println(rowDiff + "rowdiff");
-        System.out.println(colDiff + "colDiff");
 
         if (this.getColour() == Colour.BLACK) {
             return (rowDiff == 1 && colDiff == 0) ||
