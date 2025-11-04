@@ -3,6 +3,7 @@ package org.example;
 
 import org.example.Facade.CarRentalSystemFacade;
 import org.example.Factories.UserFactory;
+import org.example.Models.Reservation;
 import org.example.Models.User;
 
 import java.time.LocalDate;
@@ -15,13 +16,21 @@ public class Main {
 
         User user = UserFactory.createUser(100, "LIC-001", "Dhruv Mangroliya");
 
-        carRentalSystemBackend.createReservation(user, "GJ-14-IZ-781",
+        Reservation reservation1 = carRentalSystemBackend.createReservation(user, "GJ-14-IZ-781",
                 LocalDateTime.of(2025, 11, 4, 1, 30),
                 LocalDateTime.of(2025, 11, 5, 23, 30));
-        carRentalSystemBackend.createReservation(user, "GJ-06-FY-324",
+        Reservation reservation2 = carRentalSystemBackend.createReservation(user, "GJ-06-FY-324",
                 LocalDateTime.of(2025, 11, 4, 1, 30),
                 LocalDateTime.of(2025, 11, 4, 23, 30));
         carRentalSystemBackend.showMyBookings(user);
 
+        carRentalSystemBackend.cancelBooking(user, reservation1);
+        carRentalSystemBackend.showMyBookings(user);
+
+        Reservation reservation3 = carRentalSystemBackend.createReservation(user, "GJ-14-IZ-781",
+                LocalDateTime.of(2025, 11, 4, 1, 30),
+                LocalDateTime.of(2025, 11, 5, 23, 30));
+
+        carRentalSystemBackend.showMyBookings(user);
     }
 }

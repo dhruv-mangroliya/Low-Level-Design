@@ -71,4 +71,13 @@ public class ReservationManager {
         double days = hours / 24.0;
         return days*reservation.getVehicle().getPerDayRent();
     }
+
+    public void removeReservation(Reservation reservation){
+        String plateNumber = reservation.getVehicle().getPlateNumber();
+        List<Reservation> list = vehicleBookings.get(plateNumber);
+        System.out.println(list);
+        list.remove(reservation);
+        vehicleBookings.put(plateNumber, list);
+        return;
+    }
 }
