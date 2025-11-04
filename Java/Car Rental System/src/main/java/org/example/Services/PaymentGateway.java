@@ -3,6 +3,7 @@ package org.example.Services;
 import org.example.Enums.BookingStatus;
 import org.example.Exception.WrongPaymentType;
 import org.example.Models.Reservation;
+import org.example.Models.User;
 
 import java.util.Scanner;
 
@@ -30,6 +31,11 @@ public class PaymentGateway {
         }
         reservation.setBookingStatus(BookingStatus.CONFIRMED);
         System.out.println("Reservation Completed.");
+        return true;
+    }
+    public boolean refundPayment(User user, double amount){
+        System.out.println("Amount Refunded " + amount*0.8 + " to "+user.getName());
+        System.out.println("Cancellation Charges : "+amount*0.2);
         return true;
     }
 }
