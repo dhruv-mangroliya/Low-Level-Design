@@ -11,7 +11,8 @@ public class RateLimitingManager {
 
     public static synchronized RateLimitingManager getInstance(){
         if(instance == null){
-            return new RateLimitingManager();
+            instance = new RateLimitingManager();
+            return instance;
         }
         return instance;
     }
