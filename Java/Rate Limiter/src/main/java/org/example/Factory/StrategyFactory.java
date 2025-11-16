@@ -9,9 +9,9 @@ public class StrategyFactory {
     public StrategyFactory(){}
 
     public static TemplateRateLimiter createRateLimitingStrategy(String name, Integer maxRequest, Long windowSize){
-        if(name == "Fixed Window"){
+        if("Fixed Window".equals(name)){
             return new FixedWindowRateLimitingStrategy(maxRequest, windowSize);
-        }else if(name == "Sliding Window"){
+        }else if("Sliding Window".equals(name)){
             return new SlidingWindowRateLimitingStrategy(maxRequest, windowSize);
         }else{
             throw new WrongRateLimiterRequested();
