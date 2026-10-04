@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4405994-98a3-4631-995e-a639b089ad21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java/Parking Management System 2/Parking Management System V2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/BackendServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Entity/Balancesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Entity/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Entity/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Enum/SplitAlgorithmType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Exception/InvalidPercentageSplitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Exception/NoSuchGroupExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Exception/WrongSplitStrategyProvided.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Factory/AlgorithmFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/Factory/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/SpliteStrategy/EqualSplitAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/SpliteStrategy/PercentageSplitAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Splitewise/src/main/java/org/example/SpliteStrategy/SplitAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Tic Tac Toe/src/main/java/org/example/TTTDemo.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3FrrY3EpwDOhgADUw5twScKviEV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dhruvmangroliya/Documents/LLD/Design_Pattern_Java",
+    "onboarding.tips.debug.path": "/Users/dhruvmangroliya/Documents/LLD/Design_Pattern_Java/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4405994-98a3-4631-995e-a639b089ad21" name="Changes" comment="" />
+      <created>1782844072550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782844072550</updated>
+    </task>
+    <servers />
+  </component>
+</project>
